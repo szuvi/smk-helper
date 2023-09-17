@@ -1,0 +1,7 @@
+{
+  "extends": ["../.eslintrc.json", "plugin:react/recommended"],
+  "plugins": ["@typescript-eslint", "react", "unused-imports", "prettier"],
+  "rules": {
+    "react/react-in-jsx-scope": "off"
+  }
+}
